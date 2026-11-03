@@ -280,11 +280,17 @@ body.nav-locked{overflow:hidden}
   margin-bottom:var(--s-6);
 }
 .hero__title{
-  font-size:clamp(40px,6.6vw,92px);
-  line-height:.98;
-  letter-spacing:-.045em;
+  font-size:clamp(32px,5.2vw,74px);
+  line-height:1;
+  letter-spacing:-.04em;
 }
-.hero__title-accent{color:var(--c-accent)}
+.hero__title-accent{
+  display:block;
+  font-size:.78em;
+  line-height:1.16;
+  margin-top:var(--s-2);
+  color:var(--c-accent);
+}
 .hero__lede{
   margin-top:var(--s-8);
   max-width:46ch;
@@ -412,9 +418,9 @@ body.nav-locked{overflow:hidden}
   border-bottom:1px solid var(--c-line);
 }
 .service h3{
-  font-size:clamp(24px,2.6vw,38px);
+  font-size:clamp(22px,2.2vw,32px);
   margin-top:var(--s-4);
-  letter-spacing:-.035em;
+  letter-spacing:-.03em;
 }
 .service p{
   margin-top:var(--s-4);
